@@ -54,15 +54,28 @@
 // ЗАДАЧА 6
 // НАПИШІТЬ ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
 
-const monthBirth = Number(prompt("Enter your birth month"));
-if (monthBirth === 12 || monthBirth === 1 || monthBirth === 2) {
-  console.log("winter");
-} else if (monthBirth >= 3 && monthBirth <= 5) {
-  console.log("spring");
-} else if (monthBirth >= 6 && monthBirth <= 8) {
-  console.log("summer");
-} else if (monthBirth >= 9 && monthBirth <= 11) {
-  console.log("fall");
-} else {
-  console.log("There's no such season");
-}
+// const monthBirth = Number(prompt("Enter your birth month"));
+// if (monthBirth === 12 || monthBirth === 1 || monthBirth === 2) {
+//   console.log("winter");
+// } else if (monthBirth >= 3 && monthBirth <= 5) {
+//   console.log("spring");
+// } else if (monthBirth >= 6 && monthBirth <= 8) {
+//   console.log("summer");
+// } else if (monthBirth >= 9 && monthBirth <= 11) {
+//   console.log("fall");
+// } else {
+//   console.log("There's no such season");
+// }
+
+// ЗАДАЧА 7
+// НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІН І ПАРОЛЬ, І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ, АБО ВИДАЄ ПОМИЛКУ , ЩО НЕ ВІРНИЙ ЛОГІН
+
+const login = 'pon_chick';
+const password = 'One123';
+const message = prompt('Enter your login');
+const messagePassword = prompt('Enter your password');
+if (login === message && password === messagePassword){
+  console.log('Congrats!')
+ } else{
+  console.log('enter you right login')
+ } 
