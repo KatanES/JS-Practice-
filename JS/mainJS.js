@@ -77,5 +77,5 @@ const messagePassword = prompt('Enter your password');
 if (login === message && password === messagePassword){
   console.log('Congrats!')
  } else{
-  console.log('enter you right login')
+  console.log('enter your right data')
  } 
