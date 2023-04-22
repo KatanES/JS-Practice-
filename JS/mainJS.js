@@ -28,14 +28,25 @@
 // const totalPrice = tvSet + tab + phone;
 
 // console.log(totalPrice);
-// ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ: 
-// "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ 
+// ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ:
+// "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ
 // "НЕ ЗНАЄТЕ? 12"
 
-const month = Number(prompt("Enter month"));
+//const month = Number(prompt("Enter month"));
 // if (month ===12) {
 //   console.log(`Вірно`);
 // }else {
 //   console.log(`Не знаєте? 12`);}
-const result = month === 12 ? "correct" :  'Не знаєте? 12';
-console.log(result);
+//const result = month === 12 ? "correct" :  'Не знаєте? 12';
+//console.log(result);
+
+//ЗАДАЧА 5
+//НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ОПРИДІЛЯТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
+
+const number = Number(prompt('Введіть число'));
+//if (number % 2 === 0) {
+//  console.log(`Парне число`);
+//} else { console.log(`Непарне число`); }
+
+const answer = number % 2 === 0 ? "Парне число" : "Непарне число";
+console.log(answer);
