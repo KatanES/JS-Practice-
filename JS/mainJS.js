@@ -43,10 +43,26 @@
 //ЗАДАЧА 5
 //НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ОПРИДІЛЯТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
 
-const number = Number(prompt('Введіть число'));
-//if (number % 2 === 0) {
-//  console.log(`Парне число`);
-//} else { console.log(`Непарне число`); }
+// const number = Number(prompt('Введіть число'));
+// //if (number % 2 === 0) {
+// //  console.log(`Парне число`);
+// //} else { console.log(`Непарне число`); }
 
-const answer = number % 2 === 0 ? "Парне число" : "Непарне число";
-console.log(answer);
+// const answer = number % 2 === 0 ? "Парне число" : "Непарне число";
+// console.log(answer);
+
+// ЗАДАЧА 6
+// НАПИШІТЬ ПРОГРАМУ , ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ, І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
+
+const monthBirth = Number(prompt("Enter your birth month"));
+if (monthBirth === 12 || monthBirth === 1 || monthBirth === 2) {
+  console.log("winter");
+} else if (monthBirth >= 3 && monthBirth <= 5) {
+  console.log("spring");
+} else if (monthBirth >= 6 && monthBirth <= 8) {
+  console.log("summer");
+} else if (monthBirth >= 9 && monthBirth <= 11) {
+  console.log("fall");
+} else {
+  console.log("There's no such season");
+}
