@@ -27,15 +27,11 @@
 // const phone = Number(prompt('enter phone price'));
 // const totalPrice = tvSet + tab + phone;
 
-// console.log(totalPrice);
-// ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ: 
-// "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ 
+// ЗАДАЧА 4
+// ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ:
+// "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ
 // "НЕ ЗНАЄТЕ? 12"
 
-const month = Number(prompt("Enter month"));
-// if (month ===12) {
-//   console.log(`Вірно`);
-// }else {
-//   console.log(`Не знаєте? 12`);}
-const result = month === 12 ? "correct" :  'Не знаєте? 12';
-console.log(result);
+const month = Number(prompt("How many months are in the year?"));
+const message = month === 12 ? "True" : "НЕ ЗНАЄТЕ? 12";
+console.log(message);
