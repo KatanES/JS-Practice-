@@ -55,3 +55,8 @@
 // };
 // console.log(findSmallestNumber([2, 17, 94, 1, 23, 37]));
 // console.log(findSmallestNumber([49, 4, 83, 7, 12]));
+
+// function findSmallestNumber(numbers) {
+//   numbers = Math.min(...numbers);
+//   return numbers;
+// }
