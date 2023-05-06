@@ -70,12 +70,12 @@
 // ЗАДАЧА 7
 // НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІН І ПАРОЛЬ, І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ, АБО ВИДАЄ ПОМИЛКУ , ЩО НЕ ВІРНИЙ ЛОГІН
 
-const login = 'pon_chick';
-const password = 'One123';
-const message = prompt('Enter your login');
-const messagePassword = prompt('Enter your password');
-if (login === message && password === messagePassword){
-  console.log('Congrats!')
- } else{
-  console.log('enter your right data')
- } 
+// const login = 'pon_chick';
+// const password = 'One123';
+// const message = prompt('Enter your login');
+// const messagePassword = prompt('Enter your password');
+// if (login === message && password === messagePassword){
+//   console.log('Congrats!')
+//  } else{
+//   console.log('enter your right data')
+//  }
