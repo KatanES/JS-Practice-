@@ -2,15 +2,18 @@
 // Напишіть дві функції:
 // letMeSeeYourName(callback) - запитує імя користувача , через prompt і викликає колбек функцію (callback)
 // greet(name) - колбек , який приймає імя і логінує в консоль рядок  "Привіт" + імя
-// function letMeSeeYourName(callback){
-//     const name = prompt ('name?');
-//     callback(name);
 
+// function letMeSeeYourName(callback){
+
+//     const name = prompt ('name?');
+
+//     callback(name);
 // }
 
 // function greet(name){
 //     console.log(`Hi, ${name}!`);
 // }
+<<<<<<< Updated upstream
 // letMeSeeYourName(greet);
 
 // ЗАДАЧА 2
@@ -200,3 +203,7 @@ const scientists = [
 // const array7 = scientists.every(({ dead }) => dead > 1400);
 // console.table(scientists);
 // console.log(array7);
+=======
+
+// letMeSeeYourName(greet);
+>>>>>>> Stashed changes
