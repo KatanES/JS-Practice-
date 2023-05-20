@@ -13,7 +13,6 @@
 // function greet(name){
 //     console.log(`Hi, ${name}!`);
 // }
-<<<<<<< Updated upstream
 // letMeSeeYourName(greet);
 
 // ЗАДАЧА 2
@@ -203,7 +202,5 @@ const scientists = [
 // const array7 = scientists.every(({ dead }) => dead > 1400);
 // console.table(scientists);
 // console.log(array7);
-=======
 
 // letMeSeeYourName(greet);
->>>>>>> Stashed changes
