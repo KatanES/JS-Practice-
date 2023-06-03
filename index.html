@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #validation-input {
+        border: 2px solid #bdbdbd;
+      }
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <style>
-    #validation-input {
-      border: 2px solid #bdbdbd;
-    }
+      #validation-input.valid {
+        border-color: #4caf50;
+      }
 
-    #validation-input.valid {
-      border-color: #4caf50;
-    }
+      #validation-input.invalid {
+        border-color: #f44336;
+      }
+    </style>
+  </head>
 
-    #validation-input.invalid {
-      border-color: #f44336;
-    }
-  </style>
-</head>
+  <body>
+    <!-- <input type="text" id="validation-input" data-length="6" placeholder="Please enter 6 symbols" /> -->
 
-<body>
-  <input type="text" id="validation-input" data-length="6" placeholder="Please enter 6 symbols" />
-  <script src="./JS/mainJS.js"></script>
-  <script src="./JS/JS2.js"></script>
-  <script src="./JS/js3.js"></script>
-  <script src="./JS/js4.js"></script>
-</body>
+    <!-- <div id="counter">
+      <button type="button" data-action="decrement">-1</button>
+      <span id="value">0</span>
+      <button type="button" data-action="increment">+1</button>
+    </div> -->
 
+    <script src="./JS/mainJS.js"></script>
+    <script src="./JS/JS2.js"></script>
+    <script src="./JS/js3.js"></script>
+    <script src="./JS/js4.js"></script>
+  </body>
 </html>
