@@ -65,3 +65,24 @@
 //     elOutput.textContent = "Anonymous";
 //   }
 // });
+// ЗАДАЧА 2
+// 2.1НАПИШІТЬ КАЛЬКУЛЯТОР, ЯКИЙ БУДЕ РАХУВАТИ ЦІНУ ШАШЛИКА, В ЗАЛЕЖНОСТІ ВІД ЦІНИ ЗА КІЛОГРАМ І КІЛЬКОСТІ КУПЛЕНОГО ПРОДУКТА , І БУДЕ ВИВОДИТИ РЕЗУЛЬТАТ НА ЕКРАН
+
+const refs = {
+  price: document.querySelector("#price"),
+  quantity: document.querySelector("#quantity"),
+  amount: document.querySelector(".amount"),
+  total: document.querySelector(".total"),
+  form: document.querySelector(".form"),
+};
+
+// console.log(refs.price.value);
+const calculator = () => {
+  const total = refs.price.value * refs.quantity.value;
+  refs.total.textContent = total;
+  refs.amount.textContent = refs.quantity.value;
+  return total;
+};
+window.addEventListener("DOMContentLoaded", calculator);
+
+refs.form.addEventListener("input", calculator);
