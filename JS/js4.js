@@ -49,3 +49,19 @@
 //   counterValue += 1;
 //   value.textContent = counterValue;
 // });
+
+// TASK 5
+
+// Напиши скрипт, який під час набору тексту в інпуті input#name-input (подія input), підставляє його поточне значення в span#name-output. Якщо інпут порожній, у спані повинен відображатися рядок "Anonymous".
+
+// <input type="text" id="name-input" placeholder="Please enter your name" />
+// <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+
+// const elInput = document.querySelector("#name-input");
+// const elOutput = document.querySelector("#name-output");
+// elInput.addEventListener("input", (el) => {
+//   elOutput.textContent = el.currentTarget.value;
+//   if (el.currentTarget.value === "") {
+//     elOutput.textContent = "Anonymous";
+//   }
+// });
